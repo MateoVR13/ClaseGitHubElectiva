@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-II T-B7 BARITONE</title>
+    <title>E-II T-B7 Baritone</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="{% url 'landing_page' %}">Matt Guitars</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,17 +32,101 @@
 
     <!-- Contenido principal -->
     <div class="container mt-5">
-        <h1>E-II T-B7 BARITONE</h1>
-        <div class="card" style="width: 18rem;">
-            <img src="https://media.sweetwater.com/m/products/image/357b4b919eJf09Mp2qfC9MJcdc6HoX43mVi6vcu5.wm-lh.jpg?quality=85&height=1600&ha=357b4b919e56c4b1" class="card-img-top" alt="E-II T-B7">
-            <div class="card-body">
-                <h5 class="card-title">Especificaciones</h5>
-                <p class="card-text">
-                    - Cuerpo de aliso<br>
-                    - Diapasón de ébano<br>
-                    - Precio: $2299 USD
+        
+        <div class="row">
+            <div class="col-md-11 mx-auto">
+                <h1>E-II T-B7 Baritone</h1>
+                <div class="card">
+                    <img src="https://cdn.connectsites.net/user_files/esp/product_images/000/023/792/original.png?1490983604" alt="E-II T-B7 Baritone">
+                    <div class="card-body">
+                        <h6><s class="card-text" style="padding-left: 10px;">$2,500 USD</s></h6>
+                        <a href="#" class="btn btn-success">$2,299 USD</a>
+                        <a href="#" class="btn btn-dark">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <p style="margin-top: 30px;">
+                    Una actualización de alto rendimiento de un diseño clásico, el ESP E-II T-B7 ofrece un rendimiento serio de rango extendido para instrumentistas que necesitan todas las características contemporáneas para tocar la guitarra con potencia en el estudio y en el escenario. Fabricada en la fábrica de ESP en Tokio por nuestros expertos luthiers y diseñada para músicos profesionales, la E-II T-B7 es una guitarra barítono de siete cuerdas a escala de 27" que incluye características de primera calidad como construcción de mástil a través del cuerpo y diapasón de ébano. con 24 trastes extra-jumbo de acero inoxidable, un mástil rápido y delgado de arce en forma de U, cierres de correa ESP, clavijas de bloqueo Gotoh y un juego de pastillas EMG 707/EMG 81-7. Disponible en acabados Snow White y Black Satin. estuche rígido.
                 </p>
-                <a href="#" class="btn btn-primary">Comprar ahora</a>
+
+                <!-- Tabla de especificaciones -->
+                <h3 class="mt-4">Especificaciones</h3>
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td><strong>Construction</strong></td>
+                            <td>Neck-Thru</td>
+                            <td><strong>Hardware Color</strong></td>
+                            <td>Black</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Scale</strong></td>
+                            <td>27"</td>
+                            <td><strong>Strap Button</strong></td>
+                            <td>ESP Strap Lock</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Body</strong></td>
+                            <td>Alder</td>
+                            <td><strong>Tuners</strong></td>
+                            <td>Gotoh Locking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Top</strong></td>
+                            <td>Plain Maple</td>
+                            <td><strong>Bridge</strong></td>
+                            <td>TonePros Locking TOM w/ String Thru</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Neck</strong></td>
+                            <td>3Pc Maple</td>
+                            <td><strong>Neck PU</strong></td>
+                            <td>EMG 707</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fingerboard</strong></td>
+                            <td>Ebony</td>
+                            <td><strong>Bridge PU</strong></td>
+                            <td>EMG 81-7</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fingerboard Radius</strong></td>
+                            <td>305mm</td>
+                            <td><strong>Electronics</strong></td>
+                            <td>Active</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Finish</strong></td>
+                            <td>Snow White</td>
+                            <td><strong>Electronics Layout</strong></td>
+                            <td>Volume/Tone/3-Way Switch</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Nut Width</strong></td>
+                            <td>48mm</td>
+                            <td><strong>Strings</strong></td>
+                            <td>Elixir Nanoweb Super Light (.010/.013/.017/.026/.036/.046/.056)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Nut Type</strong></td>
+                            <td>Bone</td>
+                            <td><strong>Case</strong></td>
+                            <td>ST-TE XL GUITAR FORM FIT CASE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Neck Contour</strong></td>
+                            <td>Thin U</td>
+                            <td><strong>Case Included</strong></td>
+                            <td>Y</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Frets/Type</strong></td>
+                            <td>24 XJ Stainless</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
