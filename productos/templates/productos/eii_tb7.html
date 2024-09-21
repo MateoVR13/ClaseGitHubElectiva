@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-II T-B7 BARITONE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Matt Guitars</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'guitarra_esp_ltd' %}">Guitarra ESP LTD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'eii_eclipse' %}">E-II ECLIPSE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'eii_tb7' %}">E-II T-B7</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container mt-5">
+        <h1>E-II T-B7 BARITONE</h1>
+        <div class="card" style="width: 18rem;">
+            <img src="https://media.sweetwater.com/m/products/image/357b4b919eJf09Mp2qfC9MJcdc6HoX43mVi6vcu5.wm-lh.jpg?quality=85&height=1600&ha=357b4b919e56c4b1" class="card-img-top" alt="E-II T-B7">
+            <div class="card-body">
+                <h5 class="card-title">Especificaciones</h5>
+                <p class="card-text">
+                    - Cuerpo de aliso<br>
+                    - Diapasón de ébano<br>
+                    - Precio: $2299 USD
+                </p>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
